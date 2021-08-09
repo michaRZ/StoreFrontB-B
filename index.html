@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bag End Bed & Breakfast</title>
+</head>
+
+<body>
+    <header>
+        <nav id=headerMenu>
+            <a href="#firstPage" class=logo><img src="assets/shire-logo-transparent.png" alt="Bagend B&B logo"></a>
+
+            <ul>
+                <li><a href="#secondPage">About</a></li>
+                <li><a href="#thirdPage">Booking</a></li>
+                <li><a href="#fourthPage">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="firstPage" class="pageBreaks">
+        <div class="contentWrapper">
+            <h1>Bag End</h1>
+            <h2>Bed & Breakfast</h2>
+        </div>
+    </div>
+
+    <div id="secondPage" class="pageBreaks">
+        <div class="splitSection">
+            <div class="leftDiv">
+                <div class="shireImage">
+                    <img src="assets/nikhil-prasad-unsplash.jpg" class="d-block w-100" alt="hills of the Shire">
+                </div>
+            </div>
+            <div class="rightDiv">
+                <div id="ourStory">
+                    <h2>Our Story</h2>
+                    <p>For many years, Shire-folk minded their own. We tended to our fields, our foals, our
+                        families, and, of course, to our food. But the spirit of adventure is pesky and
+                        persistent, so we now open our home to you, weary traveler. Come to enjoy the splendid simplicity of life in
+                        Hobbiton at Bag End. No foot is too proud to rest here!
+                        <br>
+                        <br>
+                        Feasts, ales, and the finest leaf in Southfarthing await you!
+                    </p>
+                </div>
+                <div id="asFeaturedIn">
+                    <h3>As Featured In</h3>
+                    <div class="featured">
+                        <img src="assets/lotr-trilogy.png" alt="The Lord of the Rings trilogy">
+                        <img src="assets/the-hobbit-trilogy.png" alt="The Hobbit trilogy">
+                        <img src="assets/ad-png.png" alt="Architectural Digest">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="thirdPage" class="pageBreaks">
+        <div class="contentWrapper">
+            <div class="splitSection">
+                <div class="rightDiv">
+                    <h2>Book Your Adventure</h2>
+                    <p>Make your reservations soon! We often have no availability as we are an imaginary Bed & Breakfast.</p>
+                    <form action="#">
+                        <div class="form-info">
+                            <label for="arrive">Arrival</label>
+                            <input type="date" id="arrive" name="arrive" placeholder="Select Dates">
+                        </div>
+                        <div class="form-info">
+                            <label for="depart">Departure</label>
+                            <input type="date" name="depart" id="depart">
+                        </div>
+                        <div class="form-info">
+                            <label for="numGuests">Guests</label>
+                            <input type="number" id="numGuests" placeholder="Number of Guests">
+                        </div>
+                        <button type="submit">Search Dates</button>
+                    </form>
+                </div>
+                <div class="leftDiv">
+                    <img src="assets/joshua-unsplash.jpg" alt="road to Hobbiton">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fourthPage" class="pageBreaks">
+        <div class="contentWrapper">
+            <h2>Contact Us</h2>
+            <p>We'd be delighted to hear from you on party business ONLY!</p>
+            <form action="#">
+                <div class="form-info">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="form-info">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-info">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="10" cols="10">
+
+                    </textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <span>&copy;2021</span>
+        <ul id="menuFooter">
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li>Website by <a href="https://github.com/michaRZ">michaRZ</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

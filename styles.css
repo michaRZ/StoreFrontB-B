@@ -1,0 +1,361 @@
+/* color palette: https://www.color-hex.com/color-palette/87763 */
+
+body {
+    margin: 0;
+    background-color: #FFFFF0;
+}
+
+h2 {
+    font-size: 50px;
+    color: #562f07;
+}
+
+p {
+    font-size: 20px;
+    color: #562f07;
+}
+
+/* HEADER & NAV */
+
+header {
+    margin: 0;
+    padding: 3em 2em;
+    height: 20px;
+    display: block;
+    background-color: #852929;
+    border-bottom: 3px solid #562f07;
+    box-shadow: 0 3px 5px gray;
+}
+
+
+nav {
+    margin: 0;
+    padding: 1.0em 1.0em 1em;
+    color: whitesmoke;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a, nav li a:visited {
+    color: #f2d26f;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #f2d26f;
+    background-color: rgba(252, 251, 243, 0.75);
+}
+
+
+nav#headerMenu img {
+    margin: 0;
+    padding: 0;
+    bottom: 55px;
+    max-width: 100px;
+    max-height: 100px;
+    position: relative;
+}
+
+nav#headerMenu ul {
+    margin: -1.5em 0 0 0;
+    padding: 0 2em 0 0;
+    float: right;
+    height: 1.5em;
+    background-color: transparent;
+}
+
+nav#headerMenu li {
+    padding: 0 .5em 0 .5em;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+nav#headerMenu ul li a, nav#headerMenu ul li:visited {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 0.8em;
+    color: whitesmoke;
+    text-decoration: none;
+    height: 1.3em;
+    display: inline-block;
+}
+
+nav#headerMenu li a.active {
+    color: #f2d26f;
+}
+
+nav#headerMenu ul li a:hover {
+    color: #f2d26f;
+    background-color: transparent;
+}
+
+
+
+/* PAGE BREAKS */
+.pageBreaks {
+    width: 100%;
+    height: 875px;
+    display: flex;
+    /* box-shadow: 0 1px 1px gray; */
+}
+
+.contentWrapper {
+    margin: auto;
+    width: 80%;
+}
+
+
+/* FIRSTPAGE */
+#firstPage {
+    background-image: url(assets/fidel-fernando-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #852929;
+}
+
+#firstPage .contentWrapper h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 200px;
+    font-weight: 100;
+    color: #f2d26f;
+    text-align: center;
+    text-shadow: 1px 1px 10px gray, 
+                 2px 1px 4px black,
+                 -1px -1px 0 black,
+                 -2px -2px 1px #e5a610;
+    position: relative;
+    right: 10px;
+}
+
+#firstPage .contentWrapper h2 {
+    margin: -30px 0 0 0;
+    font-size: 50px;
+    font-family: 'Bilbo', cursive;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    position: relative;
+    left: 120px;
+}
+
+.splitSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+/* SECOND PAGE */
+#secondPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.splitSection .leftDiv, .rightDiv {
+    margin: 0;
+    width: 50%;
+}
+
+#secondPage .leftDiv {
+    width: 40%;
+}
+
+.leftDiv img {
+    width: 100%;
+    height: 875px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px gray;
+}
+
+.rightDiv {
+    padding: 2rem 8rem;
+    width: 60%;
+    justify-content: center;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+#secondPage .rightDiv h2 {
+    font-family: 'Bilbo', cursive;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.rightDiv p {
+    color: #562f07;
+    text-align: left;
+}
+
+.rightDiv h3 {
+    margin-top: 75px;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#asFeaturedIn .featured {
+    display: flex;
+}
+
+.featured img {
+    padding: 30px;
+    width: 30%;
+    max-width: 200px;
+    /* height: 100px; */
+}
+
+
+/* THIRD PAGE */
+#thirdPage {
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+}
+
+#thirdPage .rightDiv {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+
+#thirdPage .rightDiv form {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+#thirdPage .rightDiv h2 {
+    line-height: 1em;
+    margin-bottom: 12px;
+}
+
+#thirdPage p {
+    text-align: center;
+}
+
+input {
+    font: 16px "Times New Roman";
+    border: 1px solid #562f07;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+label {
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+  }
+
+.form-info {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+button {
+    margin: 30px 0 0 0;
+    padding: 5px 30px;
+    color: 	#3a5810;
+    background-color: whitesmoke;
+    font-size: 18px;
+    border: 2px solid #562f07;
+    border-radius: 18px;
+    box-shadow: 1px 2px 1px gray;
+}
+
+button:hover, button:active {
+    color: whitesmoke;
+    background-color: 	#3a5810;
+    border: 2px solid #562f07;
+    box-shadow: 1px 1px 3px gray;
+    transition:cubic-bezier(1, 0, 0, 1);
+}
+
+
+/* FOURTH PAGE */
+#fourthPage .contentWrapper {
+    flex-direction: column;
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+#fourthPage h2 {
+    margin-bottom: 12px;
+}
+
+#fourthPage form {
+    margin: auto;
+    width: 400px;
+}
+
+#fourthPage form label {
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+#fourthPage form input {
+    width: 400px;
+}
+
+textarea {
+    font: 16px "Times New Roman";
+    border: 1px solid #562f07;
+    width: 400px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    margin: 0;
+    padding: 1.5em 2.0em;
+    height: 25px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #852929;
+}
+
+footer ul#menuFooter {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+footer ul li {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    display: inline-block;
+}
+
+footer ul li::before {
+    padding-right: 1em;
+    content: "| ";
+}
+
+footer a, footer a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f2d26f;
+}
