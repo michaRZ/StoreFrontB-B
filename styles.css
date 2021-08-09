@@ -273,6 +273,7 @@ button {
     margin: 30px 0 0 0;
     padding: 5px 30px;
     font-family: "Times New Roman";
+    letter-spacing: 1.5px;
     color: 	#3a5810;
     background-color: whitesmoke;
     font-size: 18px;
@@ -322,8 +323,6 @@ textarea {
     border: 1px solid #562f07;
     width: 400px;
 }
-
-
 
 
 /* FOOTER */
